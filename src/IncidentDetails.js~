@@ -1,0 +1,17 @@
+import React, { Component } from 'react';
+import './Map.css';
+
+class IncidentDetails extends Component {
+    render() {
+	    <div>
+	    <table>
+	    <tr>
+	    <td>Start Time</td><td>{startTime}</td>
+	    <td>Projected EndTime</td><td>>{endTime}</td>
+	    <td>Nearest SubStation</td><td></td>
+	    <td>Suspected Device List</td><td></td>
+	    </tr>
+	    </table>
+	    </div>
+    };
+}
